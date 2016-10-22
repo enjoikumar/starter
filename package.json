@@ -58,5 +58,7 @@
   "bugs": {
     "url": "https://github.com/angular/angular2-seed/issues"
   },
-  "homepage": "https://github.com/angular/angular2-seed#readme"
+  "homepage": "https://github.com/angular/angular2-seed#readme",
+  "main": "webpack.config.js",
+  "author": ""
 }
