@@ -16,7 +16,6 @@ html{
   height: 20px;
   background-color: white;
   padding: 200px;
-  /*margin: 0px;*/
   margin-left: 300px;
   margin-top: 100px;
 }
@@ -89,4 +88,108 @@ html{
   font-size: 15px;
 }
 
+/*making the iframe file mobile responsive*/
 
+@media only screen and (max-width: 400px){
+
+  html{
+  font-family: 'Roboto', sans-serif;
+  background:rgba(0,0,0,0.6)
+  }
+
+  #x{
+  position: absolute;
+  color: gray;
+  margin-top: -20px;
+  margin-left: 300px;
+  font-size: 18px;
+  }
+
+  .main{
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  padding: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+  }
+
+  .direct{
+  position: absolute;
+  text-align: center;
+  color:purple;
+  margin-top: -18px;
+  margin-left: 10px;
+  font-size: 20px;
+  }
+
+.reward{ 
+  position: absolute;
+  color:black;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 50px;
+  font-size: 15px;
+  }
+
+
+/*Images*/
+.starbucks{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-top: 15px;
+  margin-left: 65px;
+  }
+.caption1{
+  position: absolute;
+  margin-top: 75px;
+  margin-left: 78px;
+  font-size: 12px;
+  }
+
+.air{
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  margin-top: 100px; 
+  margin-left: 60px;
+  }
+.caption2{
+  position: absolute;
+  margin-top: 135px;
+  margin-left: 70px;
+  font-size: 12px;
+  }
+
+.wifi{
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  margin-top: 150px;
+  margin-left: 73px;
+  }
+.caption3{
+  position: absolute;
+  margin-top: 205px;
+  margin-left: 80px;
+  font-size: 12px;
+  }
+
+.book{
+  position: absolute;
+  color:white;
+  background-color: purple;
+  padding: 1.0px;
+  margin-top: 250px;
+  margin-left: 35px; 
+  }
+
+.rate{
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 85px; 
+  color:gray;
+  font-size: 1. 5px;
+  }
+}

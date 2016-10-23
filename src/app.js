@@ -1,6 +1,6 @@
 
 //checking is javascript is working
-console.log("hello everybody")
+// console.log("hello everybody")
 
 //calling on the entire html file
 // var all = document.getElementById("all");
