@@ -1,7 +1,16 @@
 html{
   font-family: 'Roboto', sans-serif;
+  background:rgba(0,0,0,0.6)
 }
 
+
+#x{
+  position: absolute;
+  color: gray;
+  margin-top: -200px;
+  margin-left: 330px;
+  font-size: 20px;
+}
 .main{
   width: 150px;
   height: 20px;
