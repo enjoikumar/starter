@@ -14,19 +14,19 @@
 //calling the div file with everything in it
 var master = document.getElementById("master")
 //console logging to make sure it is
-console.log(master)
+// console.log(master)
 
 //getting the x button
 var btn = document.getElementById("x")
 //console logging to make sure it is what it is
-console.log(btn)
+// console.log(btn)
 
 //when user clicks the x, the event listener enables the function
 btn.addEventListener("click",function(){
 	//console logging to see where i am in the function
-	console.log("event listener is working")
+	// console.log("event listener is working")
 	//calling the element from line 15 and then making it empty
 	master.innerHTML = "";
 	//console logging to make sure its working
-	console.log("it worked")
+	// console.log("it worked")
 })
