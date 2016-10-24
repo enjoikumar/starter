@@ -46,7 +46,7 @@ html{
 .caption1{
   position: absolute;
   margin-top: -20px;
-  margin-left: -185px;
+  margin-left: -193px;
 }
 
 .air{
@@ -59,6 +59,7 @@ html{
 .caption2{
   position: absolute;
   margin-top: -55px;
+  margin-left: -20px;
 }
 
 .wifi{
